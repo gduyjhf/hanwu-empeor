@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("fan18037925089"))
 
 def emperor_liuche(user_input: str) -> str:
     system_prompt = """
